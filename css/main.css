@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Indie Flower', cursive;
+}
+
+body header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5rem;
+  background-image: url("../images/mota.ru_2016100443-b70.jpg");
+  color: #fff;
+  min-height: 30vh;
+}
+
+body header h2 {
+  padding: 3rem;
+}
+
+body header h2 #logo {
+  color: #fff;
+  text-decoration: none;
+  font-size: 3rem;
+}
+
+body header p {
+  font-size: 1.3rem;
+}
+
+body header .search-form {
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body header .search-form input {
+  font-size: 1.5rem;
+  font-family: cursive;
+  font-weight: 100;
+  padding: 0.75rem 1.025rem;
+  width: 100%;
+  border: none;
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+  outline: none;
+}
+
+body header .search-form button {
+  border: none;
+  padding: 0.5rem;
+  font-size: 1rem;
+  background-color: #945cdd;
+  color: #fff;
+  cursor: pointer;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+body main .gallery {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(350px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  padding: 2rem 0;
+  width: 80%;
+  margin: auto;
+  row-gap: 5rem;
+  -webkit-column-gap: 3rem;
+          column-gap: 3rem;
+}
+
+body main .gallery .gallery-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #909090;
+  padding: 0.5rem 0;
+}
+
+body main .gallery .gallery-info a {
+  color: #909090;
+}
+
+body main .gallery img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px;
+  cursor: pointer;
+  -webkit-transition: all 0.15s linear;
+  transition: all 0.15s linear;
+  opacity: 0.8;
+}
+
+body main .gallery img:hover {
+  opacity: 1;
+  background-color: #1a1919;
+}
+
+body .nav-button {
+  margin: 30px auto;
+  padding: 1rem 3rem;
+  background-color: #2439f0;
+  border: none;
+  font-size: 1.5rem;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .nav-button:hover {
+  background-color: blue;
+  color: #fff;
+  -webkit-transition: all 0.25s linear;
+  transition: all 0.25s linear;
+}
+/*# sourceMappingURL=main.css.map */
